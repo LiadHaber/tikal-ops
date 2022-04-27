@@ -1,0 +1,4 @@
+apiVersion: v2
+name: prometheus-app-of-apps
+version: 1.0.0
+description: "Prometheus App of Apps"
