@@ -50,6 +50,8 @@ Lets add our git repository
 kubectl apply -f argocd-git-repo.yaml
 ````
 You can verify the repository has be added by going to settings -> Repositories in the ArgoCD UI
+
+
 Now this part is a little tricky, As of today(27/04/2022) the prometheus operator has an issue - One of the CRD's created is invalid(Annotaion too long).
 You can try for yourself with - 
 ```
