@@ -68,7 +68,7 @@ kubectl apply -f prom-stack-app.yaml
 This will create all resources managed by the prometheus operator - Such as grafana,prometheus, alertmanager etc.
 
 For the purposes of this demo I disabled the node-exporter resource(Disables the node-exporter daemonset creation).
-In addition - We want prometheus to be able to scrape ArgoCD metricsd so I added an additional service-monitor ArgoCD.
+In addition - We want prometheus to be able to scrape ArgoCD metricsd so I added an additional service-monitor for ArgoCD.
 Both of this were supplied as values for the prometheus operator chart via the ArgoCD app. 
 
 Let's add a grafana dashboard for ArgoCD metrics
