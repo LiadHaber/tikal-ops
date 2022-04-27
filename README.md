@@ -1,7 +1,7 @@
 # K8s GitOps And Monitoring
 
 ## Prerequisites
- - Laptop/PC with 16GB+ of ram
+ - Laptop/PC with 8GB+ of ram
  - K8S cluster, Im using docker-desktop single node cluster for this tutorial.(Kind is also a good and easy option - https://kind.sigs.k8s.io/docs/user/quick-start/)
  - Kubectl cli
  - Helm cli
